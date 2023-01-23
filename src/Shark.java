@@ -1,11 +1,11 @@
 public class Shark extends Animal{
-    @Override
-    public String eat() {
-        return super.eat();
+    public static   Shark[]sharks;
+    public static void attack(){
+        System.out.println("Shark is attack");
     }
 
-    public String attack(){
-
-        return "Shark is attacking";
+    @Override
+    public void eat() {
+        System.out.println("Shark is eating");
     }
 }

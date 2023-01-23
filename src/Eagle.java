@@ -1,10 +1,12 @@
 public class Eagle extends Animal {
-    @Override
-    public String eat() {
-        return super.eat();
+    public  static Eagle[] eagles;
+
+    public static void fly(){
+        System.out.println("eagle flying");
     }
 
-    public String fly(){
-        return "Eagle is flying ";
+    @Override
+    public void eat() {
+        System.out.println("eagle is eating");
     }
 }

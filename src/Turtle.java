@@ -1,10 +1,12 @@
 public class Turtle extends Animal{
-    @Override
-    public String eat() {
-        return super.eat();
+    public static Turtle []turtles;
+    public static void swim(){
+        System.out.println("Turtle swimming");
     }
 
-    public String swim(){
-        return "Turtle is swimming";
+    @Override
+    public void eat() {
+        System.out.println("Turtle is eating");
+
     }
 }

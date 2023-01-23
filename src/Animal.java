@@ -1,6 +1,5 @@
 public class Animal {
 
-    public String eat(){
-        return "eating";
+    public void eat() {
     }
 }
